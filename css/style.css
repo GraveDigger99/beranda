@@ -985,6 +985,7 @@ h6 {
   background: url("../img/hero/01.png") center/cover no-repeat; }
 
 .slide-hero {
+  position: relative;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 3.125rem;
@@ -993,6 +994,7 @@ h6 {
 }
 
 .slide-hero__title {
+  word-wrap: break-word;
   color: #fff;
   font-size: 120px;
   font-weight: 700;
@@ -1054,7 +1056,21 @@ h6 {
 }
 
 .slide-hero__image img {
+  width: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   max-width: 100%;
+}
+
+.slide-hero__made img {
+  width: 240px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .about {
@@ -2105,6 +2121,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 1.25rem;
   }
 
@@ -2121,6 +2139,19 @@ body {
     height: 2px;
     background-color: #ff5c00;
     width: 100%;
+  }
+
+  .slide-hero__image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 320px;
+            flex: 0 0 320px;
+  }
+
+  .slide-hero__image img {
+    height: 292px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 320px;
+            flex: 0 0 320px;
   }
 
   .about__title:not(:last-child) {
@@ -2386,10 +2417,14 @@ body {
 
   .slide-hero__image img {
     width: 250px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 250px;
+            flex: 0 0 250px;
   }
 
   .slide-hero__made img {
     width: 200px;
+    height: auto;
   }
 
   .about__title {
@@ -2825,6 +2860,9 @@ body {
 
   .slide-hero__image img {
     width: 200px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 200px;
+            flex: 0 0 200px;
   }
 
   .about {
@@ -3172,10 +3210,14 @@ body {
 
   .slide-hero__image img {
     width: 150px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 150px;
+            flex: 0 0 150px;
   }
 
   .slide-hero__made img {
     width: 120px;
+    height: auto;
   }
 
   .about__title {
@@ -3393,6 +3435,9 @@ body {
 
   .slide-hero__image img {
     width: 120px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 120px;
+            flex: 0 0 120px;
   }
 
   .slide-hero__made {
