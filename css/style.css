@@ -367,12 +367,10 @@ h6 {
 
 .spollers__item {
   font-size: 1.25rem;
-  min-height: 100%;
 }
 
 .spollers__title {
   text-align: center;
-  height: 100%;
   cursor: pointer;
   display: inline-block;
   text-align: center;
