@@ -2982,14 +2982,6 @@ body {
   .menu-open .icon-menu span,
   .menu-open .icon-menu::before,
   .menu-open .icon-menu::after {
-    background-color: #fff;
-  }
-}
-
-@media (max-width: 61.99875em) and (max-width: 29.99875em) {
-  .menu-open .icon-menu span,
-  .menu-open .icon-menu::before,
-  .menu-open .icon-menu::after {
     background-color: #000;
   }
 }
