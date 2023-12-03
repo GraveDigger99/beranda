@@ -4610,7 +4610,7 @@
     }));
     if (spollerBtnDesktop) document.addEventListener("mouseover", (function(e) {
         let targetElement = e.target;
-        if (targetElement.classList.contains("menu__link_submnu") || targetElement.classList.contains("submenu__element") || targetElement.classList.contains("submenu__body") || targetElement.classList.contains("submenu__link") || targetElement.classList.contains("submenu__list-item")) document.body.classList.add("fade"); else document.body.classList.remove("fade");
+        if (targetElement.classList.contains("menu__link_submnu") || targetElement.classList.contains("submenu__element") || targetElement.classList.contains("submenu__body") || targetElement.classList.contains("submenu__link") || targetElement.classList.contains("submenu__list-item")) document.body.classList.add("fade-1"); else document.body.classList.remove("fade-1");
     }));
     window["FLS"] = false;
     isWebp();
